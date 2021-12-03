@@ -55,3 +55,25 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+/* レスポンシブ対応 */
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .box {
+    width: 90%;
+  }
+
+  .box:nth-child(odd) {
+    margin: 0 auto;
+  }
+  .box:nth-child(2) {
+    margin: 20px auto;
+  }
+}
